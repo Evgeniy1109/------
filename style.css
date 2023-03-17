@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+body {
+    font-family: "Euclid Circular A", sans-serif;
+}
+
+
+/* Восхождение на эльбрус */
+
+
+.caucasus_fon_top{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-image: url('img/кавказ\ фон\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.caucasus_fon_center{
+    background-color: #132C33;
+}
+.caucasus_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 67px;
+}
+.nav ul{
+    display: flex;
+    padding-top: 55px;
+}
+.nav li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 34px;
+}
+.tab_header.active{
+    color: #FFCA3C;
+}
+.tab_header.active::before{
+    content: '';
+    display: block;
+    border-top: 1px solid #ffffff;
+}
+.tab_header.active::after{
+    content: '';
+    display: block;
+    border-top: 1px solid #ffffff;
+}
+.caucasus_header_title{
+    font-size: 74px;
+    line-height: 94px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.caucasus_desc{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 52px;
+}
+.caucasus_subtitle{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    width: 100%;
+    max-width: 849px;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-right: 141px;
+}
+.caucasus_subtitle li{
+    margin-left: 20px;
+}
+.caucasus_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.caucasus_img_elbrus{
+    width: 32%;
+    max-width: 410px;
+}
+.caucasus_button{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 50px;
+}
+.caucasus_btn_routes a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    border: 4px solid #fbac1e;
+    border-radius: 7px;
+    padding: 11px 14px;
+}
+.caucasus_btn_routes a:hover {
+    border: 4px solid #ffca3c;
+}
+.caucasus_btn_routes a:active {
+    border: 4px solid #e79814;
+}
+.caucasus_btn_record > a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 11px 14px;
+    border: 1px solid #fbac1e;
+    background-color: #fbac1e;
+    border-radius: 4px;
+    margin-left: 21px;
+}
+.caucasus_btn_record > a:hover {
+    background-color: #ffca3c;
+    border: 1px solid #ffca3c;
+}
+.caucasus_btn_record > a:active {
+    background-color: #e79814;
+    border: 1px solid #e79814;
+}
+.caucasus_fon_bottom{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-image: url('img/кавказ\ фон\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.caucasus{
+    display: none;
+}
+.caucasus.active{
+    display: block;
+}
+
